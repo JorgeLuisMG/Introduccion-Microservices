@@ -15,7 +15,6 @@ import com.microservice.store.models.Celular;
 import com.microservice.store.models.Store;
 
 @Service("serviceRest")
-@Primary
 public class StoreServiceRestImpl implements StoreService {
 
 	@Autowired

@@ -11,6 +11,7 @@ import com.microservice.store.client.CelularClientFeign;
 import com.microservice.store.models.Store;
 
 @Service("serviceFeign")
+@Primary
 public class StoreServiceFeignImpl implements StoreService {
 
 	@Autowired
