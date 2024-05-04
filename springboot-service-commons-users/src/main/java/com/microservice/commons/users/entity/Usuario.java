@@ -1,4 +1,4 @@
-package com.microservice.usuarios.entity;
+package com.microservice.commons.users.entity;
 
 import java.io.Serializable;
 import java.util.List;
@@ -19,9 +19,6 @@ import javax.persistence.UniqueConstraint;
 @Table(name="usuarios")
 public class Usuario implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 5704262248542868874L;
 
 	@Id
